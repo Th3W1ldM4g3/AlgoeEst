@@ -114,7 +114,30 @@
 
 #________________________________________________________________________________________________________________________
 
-print(len("Olá alunos")) 
+# print(len("Olá alunos")) 
 
-# len() - Lê a quantidade de caracteres em um vetor ou string
+# # len() - Lê a quantidade de caracteres em um vetor ou string
 
+#________________________________________________________________________________________________________________________
+
+# # def função(atributo): - Declara uma função. Essa função pode ser chamada posteriormente por seu nome, seu nome deve seguir as normas de declaração e ela possui atributos que pode ser utilizados dentro dela. Também pode ter mais de um atributo, como def função(atributo1, atributo2, atributo3) Exemplo:
+
+# def tabuada(numero): #Cria a função tabuada, que imprime qual tabuada será feita e o resultado de toda a tabuada.
+#     print(f"Tabuada do {numero}")
+#     for i in range(1,11):
+#         print(f"{numero} x", i, "=", numero*i) #Mostra o número atual da tabuada
+        
+# tabuada(7)
+# tabuada(8)
+# tabuada(9)
+
+# # Boas práticas para declaração de função: Nomes descritivos; Funções pequenas e focadas, garantindo que ela realmente será utilizada; Teste suas funções, garantindo que erros não sejam criados ao utilizar a função posteriormente.
+
+#Exemplo com mais de um atributo:
+
+# def  tabuada_personalizada(base, inicio, fim): # Função que multiplica a base por todos os números entre o início e o fim
+#     print(f"Tabuada do {base}, de {inicio} até {fim}")
+#     for i in range(inicio, fim + 1):
+#         print(f"{base} x {i} = {base * i}")   
+
+# tabuada_personalizada(2, 2, 16)
